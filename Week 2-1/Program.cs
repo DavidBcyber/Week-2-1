@@ -10,24 +10,24 @@ namespace Week_2_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Interest Calculator Program"); //Calculator
+            Console.WriteLine("Interest Calculator Program"); //This a calculator to fin the interest
 
-            double principal, rate, time, Intreast; // double
+            double principal, rate, time, Interest; // these are the objects to find the total intreast
 
-            Console.WriteLine("What is princaipal amount of the loan in dollars?"); // the amount of dollars
+            Console.WriteLine("What is the principal amount of the loan in dollars?"); // The amount for the principal that you are borrowing for the loan amount
             principal = Convert.ToDouble(Console.ReadLine());
 
 
-            Console.WriteLine("What is intrest rate (input 0.05 for 5%)?");// the intrest rate
+            Console.WriteLine("What is interest rate (input 0.05 for 5%)?");//the amount of rate you enter turns into a percentage to find the interest
             rate = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("What is period of loan in years?"); // loan period
+            Console.WriteLine("What is the period of the loan in years?"); //this is the number of years that you have to pay
             time = Convert.ToDouble(Console.ReadLine());
 
 
-            Console.WriteLine(Intreast = principal * rate * time); // the calculation
+            Console.WriteLine(Interest = principal * rate * time); // this is the equation that helps you to find the total interest
 
-            Console.WriteLine("Total intrest of loan is:" + Intreast + " dollars"); // the total of the intreast
+            Console.WriteLine("Total interest of loan is:" + Interest + " dollars"); // The display for the total interest that you have to pay
         }
     }
 }
