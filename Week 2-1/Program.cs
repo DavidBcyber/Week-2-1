@@ -10,7 +10,7 @@ namespace Week_2_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Interest Calculator Program"); //This a calculator to fin the interest
+            Console.WriteLine("Interest Calculator Program"); //This a calculator to find the interest
 
             double principal, rate, time, Interest; // these are the objects to find the total intreast
 
